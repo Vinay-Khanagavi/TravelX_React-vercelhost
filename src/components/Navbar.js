@@ -11,7 +11,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="NavbarItems">
-        <h1 className="navbar-logo">Travelo</h1>
+        <h1 className="navbar-logo">Abhinav Travelo</h1>
         <div className="menu-icons" onClick={this.handleClick}>
           <i className={this.state.clicked ? "fa fa-times" : "fa fa-bars"}></i>
         </div>
@@ -26,7 +26,7 @@ class Navbar extends Component {
               </li>
             );
           })}
-          <button>Sign Up</button>
+          {/* <button>Sign Up</button> */}
         </ul>
       </nav>
     );

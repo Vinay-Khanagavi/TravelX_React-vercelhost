@@ -10,7 +10,7 @@ import "./DestinationStyles.css";
 const Destination = () => {
   return (
     <div className="destination">
-      <h1>Popular Destinations</h1>
+      {/* <h1>Popular Destinations</h1>
       <p>Trips give you the best opportunity to discover a lot within a time frame.</p>
       <DestinationData
         className="first-des"
@@ -25,14 +25,14 @@ const Destination = () => {
         text="Indulge in the enchanting allure of Munnar, Kerala's emerald paradise, where verdant tea gardens carpet the rolling hills. Our travel package invites you to immerse yourself in this idyllic retreat, where misty mornings and cool, crisp air create a haven for relaxation. Hike through the vibrant flora of Eravikulam National Park or unwind amidst the serenity of the Attukal Waterfalls. Munnar promises an escape into nature's embrace, with its picturesque landscapes and tranquil ambiance. Join us in discovering the magic of Munnar, where every moment becomes a cherished memory."
         img1={Mountain3}
         img2={Mountain4}
-      />
-      <DestinationData
+      /> */}
+      {/* <DestinationData
         className="first-des-reverse-again"
         heading="Baga Beach, Goa"
         text="Experience the ultimate coastal paradise at Baga Beach in Goa, where sun-kissed shores meet the vibrant spirit of India. Nestled along the Arabian Sea, this stunning destination is a must-visit for travelers seeking relaxation and adventure. With its pristine golden sands and an array of water sports, Baga Beach promises an unforgettable vacation. Savor delectable seafood at beachside shacks, dance to the rhythm of live music, and immerse yourself in the vibrant nightlife. Explore Goa's charm with us, and let Baga Beach be your gateway to an exotic Indian adventure!"
         img1={Mountain5}
         img2={Mountain6}
-      />
+      /> */}
     </div>
   );
 };

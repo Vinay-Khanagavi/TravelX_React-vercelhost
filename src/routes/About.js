@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import NightImg from "../assets/night.jpg";
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 import AboutUs from "../components/AboutUs";
 
 function About() {
@@ -15,7 +15,7 @@ function About() {
         btnClass="hide"
       />
       <AboutUs />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

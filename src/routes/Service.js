@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import NightImg from "../assets/10.jpg";
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 import Trip from "../components/Trip";
 
 function Service() {
@@ -15,7 +15,7 @@ function Service() {
         btnClass="hide"
       />
       <Trip />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

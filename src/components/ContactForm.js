@@ -1,21 +1,28 @@
-import "./ContactFormStyles.css";
-import { useRef } from "react";
-import emailjs from "@emailjs/browser";
+import React, { useRef } from 'react';
 
 const ContactForm = () => {
-
     const form = useRef();
 
-    const sendEmail = (e) => {
+    const sendEmail = async (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('Codexsuvro_travelo', 'template_4n4q4m7', form.current, 'GzNR0Q0KxhyQ02uB7')
-            .then((result) => {
-                console.log(result.text);
-                e.target.reset();
-            }, (error) => {
-                console.log(error.text);
+        const formData = new FormData(form.current);
+
+        try {
+            const response = await fetch('http://localhost:3001/sendEmail', {
+                method: 'POST',
+                body: formData
             });
+
+            if (response.ok) {
+                console.log('Email sent successfully');
+                form.current.reset();
+            } else {
+                console.error('Error sending email');
+            }
+        } catch (error) {
+            console.error('Error sending email:', error);
+        }
     };
 
     return (

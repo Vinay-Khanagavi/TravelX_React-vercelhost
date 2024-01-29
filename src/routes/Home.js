@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import HomeImg from "../assets/12.jpg";
 import Destination from "../components/Destination";
 import Trip from "../components/Trip";
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -20,7 +20,7 @@ function Home() {
       />
       <Destination />
       <Trip />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
