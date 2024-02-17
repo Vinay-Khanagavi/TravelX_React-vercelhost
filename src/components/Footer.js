@@ -15,10 +15,10 @@ const Footer = () => {
                     <a href="https://www.instagram.com/halogen.cfl">
                         <i class="fa-brands fa-instagram-square" aria-hidden="true"></i>
                     </a>
-                    <a href="https://twitter.com/codexsuvro">
+                    <a href="https://twitter.com/CodexVinu">
                         <i className="fa-brands fa-twitter-square"></i>
                     </a>
-                    <a href="https://github.com/codexsuvro">
+                    <a href="https://github.com/CodexVinu">
                         <i className="fa-brands fa-github-square"></i>
                     </a>
                 </div>
@@ -33,10 +33,10 @@ const Footer = () => {
                 </div>
                 <div>
                     <h4>Community</h4>
-                    <a href="https://github.com/codexsuvro">GitHub</a>
+                    <a href="https://github.com/CodexVinu">GitHub</a>
                     <a href="/">Issues</a>
-                    <a href="https://github.com/codexsuvro">Project</a>
-                    <a href="https://twitter.com/codexsuvro">Twitter</a>
+                    <a href="https://github.com/CodexVinu">Project</a>
+                    <a href="https://twitter.com/CodexVinu">Twitter</a>
                 </div>
                 <div>
                     <h4>Help</h4>
@@ -52,7 +52,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="last-text">
-                <h3>CodexSuvro 2023 &copy; All Rights Reserved.</h3>
+                <h3>CodexVinu 2023 &copy; All Rights Reserved.</h3>
             </div>
         </div>
     );
